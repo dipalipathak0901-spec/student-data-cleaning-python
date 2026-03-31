@@ -1,25 +1,44 @@
-# Student Data Cleaning (Python)
+# Student Data Cleaning Project (Python)
 
-This project demonstrates basic data cleaning using Python and pandas.
+A Python-based mini data engineering project for cleaning and preprocessing student records using pandas.
+
+## Project Objective
+
+This project demonstrates how raw student data can be cleaned and transformed for analysis.
 
 ## Features
-- Handling missing values
-- Simple data processing
 
-## Code Example
+* Handle missing values
+* Remove duplicate records
+* Standardize column names
+* Fix invalid data types
+* Basic data validation
+* Export cleaned dataset
 
-```python
-import pandas as pd
+## Technologies Used
 
-data = {
-    'Name': ['Amit', 'Riya', None],
-    'Marks': [85, None, 90]
-}
+* Python
+* Pandas
+* CSV
 
-df = pd.DataFrame(data)
+## Input Example
 
-df['Name'] = df['Name'].fillna('Unknown')
-df['Marks'] = df['Marks'].fillna(df['Marks'].mean())
+Raw data contains:
 
-print(df)# student-data-cleaning-python
-Simple Python script for cleaning student data
+* Missing marks
+* Null names
+* Duplicate student records
+
+## Output
+
+Cleaned dataset ready for reporting and analytics.
+
+## How to Run
+
+```bash
+python clean_data.py
+```
+
+## Use Case
+
+This project simulates real-world ETL data cleaning logic used in data engineering pipelines.
