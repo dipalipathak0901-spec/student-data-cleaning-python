@@ -33,9 +33,7 @@ Raw data contains:
 
 Cleaned dataset ready for reporting and analytics.
 
-## How to Run
 
-```bash
 python clean_data.py
 ```
 
