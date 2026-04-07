@@ -1,4 +1,4 @@
-# Student Data Cleaning Project (Python)
+# Student Data Cleaning Project (Python)  
 
 A Python-based mini data engineering project for cleaning and preprocessing student records using pandas.
 
