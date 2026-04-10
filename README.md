@@ -29,7 +29,7 @@ Raw data contains:
 * Null names
 * Duplicate student records
 
-## Output
+## Output  
 
 Cleaned dataset ready for reporting and analytics.
 
